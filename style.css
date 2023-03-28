@@ -906,8 +906,8 @@ p {
 		font-size: 1.8rem;
 		padding: 0.6em 1.6em;
 		margin: auto;
-		width: 45%;
-		
+		width: 60%;
+		justify-content: center;
 	}
 }
 @media only screen and (max-width: 450px) {
@@ -991,6 +991,12 @@ p {
 #contact .left .social-info ul li a {
 	color: var(--primary-color);
 }
+
+#contact .left .social-info ul li svg path:hover {
+	width: 25px;
+	color: var(--primary-color);
+}
+
 #contact .right .form-wrapper {
 	/* background-color: var(--primary-color); */
 	background: rgba(255, 255, 255, 0.2);
@@ -1136,6 +1142,10 @@ p {
 	background-color: white;
 }
 #footer footer ul li:hover a {
+	color: var(--primary-color);
+}
+
+#footer footer ul li:hover svg path{
 	color: var(--primary-color);
 }
 #footer footer ul li a {
