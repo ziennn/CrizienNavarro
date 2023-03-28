@@ -405,10 +405,10 @@ p {
 	width: 100%;
 	/* max-width: 450px;
 	height: 600px; */
-	max-width: 650px;
-	height: 830px;
+	max-width: 600px;
+	height: 680px;
 	object-fit: cover;
-	object-position: 50% 30%;
+	object-position: 50% 200%;
 	/* border-radius: 12px; */
 
 	/* From https://css.glass */
