@@ -448,7 +448,9 @@ p {
 	#hero .container .left .desc {
 		margin: 0 auto;
 		margin-top: 2rem;
+		font-size: 15px;
 	}
+	
 	#hero .right img {
 		width: 100%;
 		height: 400px;
