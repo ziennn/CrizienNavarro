@@ -177,7 +177,7 @@ h2::selection {
     transition: 0.5s ease-in-out;
   }
   
-  .project-bio {
+  .project-bio, .project-bio-3{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -290,8 +290,24 @@ h2::selection {
     .more-project-card a {
       color: #ffffff;
       transition: 0.25s ease-in-out;
-      font-size: 2.5rem;
-      margin-right: .2rem;
+      font-size: 2.3rem;
+      /* margin-right: .1rem; */
+    }
+    .project-link a{
+      justify-content: flex-end;
+      margin: .5rem;
+      display: flex;
+    }
+    .project-info {
+      display: flex;
+      justify-content: space-between;
+      opacity: 0;
+      position: relative;
+      transition: 0.5s ease-in-out;
+    }
+    .project-bio-3{
+      top: 135px;
+      
     }
   }
   
