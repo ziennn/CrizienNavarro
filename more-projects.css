@@ -287,5 +287,14 @@ h2::selection {
       display: grid;
       grid-template-columns: 1fr;
     }
+    .more-project-card a {
+      color: #ffffff;
+      transition: 0.25s ease-in-out;
+      font-size: 3rem;
+      margin-right: .2rem;
+    }
+    .card .project-bio h3 {
+      font-size: 1rem;
+    }
   }
   
