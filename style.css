@@ -80,7 +80,7 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 	position: relative;
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 	color:#FEFFFF;
 }
 .section-heading::before {
@@ -405,10 +405,10 @@ p {
 	width: 100%;
 	/* max-width: 450px;
 	height: 600px; */
-	max-width: 600px;
+	max-width: 500px;
 	height: 680px;
 	object-fit: cover;
-	object-position: 50% 200%;
+	object-position: 50% 50%;
 	/* border-radius: 12px; */
 
 	/* From https://css.glass */
