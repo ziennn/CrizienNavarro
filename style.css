@@ -201,7 +201,8 @@ p {
 	margin-right: 0;
 	cursor: pointer;
 	border-radius: 10px;
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
+	background-color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -209,7 +210,15 @@ p {
 #navigation .nav-icon svg {
 	width: 80%;
 	color: white;
+	/* color: var(--primary-color); */
 }
+
+#navigation .nav-icon svg:hover{
+	width: 80%;
+	/* color: white; */
+	color: var(--primary-color);
+}
+
 #nav-content {
 	position: fixed;
 	right: 0;
@@ -555,8 +564,8 @@ p {
 }
 
 #services .container .badges .row img{
-	width: 100px; 
-	height: 100px;
+	width: 130px; 
+	height: 130px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -584,8 +593,8 @@ p {
 		background: rgba(255, 255, 255, 0.2);
 	}
 	#services .container .badges .row img{
-		width: 95px; 
-		height: 95px;
+		width: 110px; 
+		height: 110px;
 		
 	}
 }
