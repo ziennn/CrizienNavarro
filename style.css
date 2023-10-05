@@ -460,8 +460,8 @@ p {
 	}
 	
 	#hero .right img {
-		width: 80%;
-		height: 350px;
+		width: 100%;
+		height: 400px;
 		/* justify-content: center; */
 	}
 }
