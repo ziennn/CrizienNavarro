@@ -553,6 +553,12 @@ p {
 #services .item:nth-child(3) .icon {
 	background-color: rgb(198,98,127);
 }
+
+#services .container .badges .row img{
+	width: 100px; 
+	height: 100px;
+}
+
 @media only screen and (max-width: 768px) {
 	#services .all-items {
 		flex-direction: column;
@@ -577,8 +583,9 @@ p {
 		/* background-color: #cbbef093; */
 		background: rgba(255, 255, 255, 0.2);
 	}
-	#services .container .badges{
-		gap: .1rem;
+	#services .container .badges .row img{
+		width: 80px; 
+		height: 80px;
 	}
 }
 
