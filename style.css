@@ -576,6 +576,9 @@ p {
 		/* background-color: #cbbef093; */
 		background: rgba(255, 255, 255, 0.2);
 	}
+	#services .container .badges{
+		gap: 1rem;
+	}
 }
 
 /* About section  */
@@ -647,16 +650,16 @@ p {
 		flex-direction: column-reverse;
 		text-align: center;
 	}
-	#about .right .buttons {
+	#about .right .button {
 		flex-direction: column;
 	}
-	#about .right .buttons a {
-		width: 100%;
+	#about .right .button a {
+		width: 60%;
 		text-align: center;
 	}
 	#about .left .card .img {
-		width: 50px;
-		height: 50px;
+		width: 100px;
+		height: 100px;
 		margin: 0 auto;
 		border-radius: 50%;
 		overflow: hidden;
@@ -1052,6 +1055,11 @@ p {
 		justify-content: center;
 		text-align: center;
 	}
+	#footer footer .col-1 p {
+		font-size: 0%;
+	}
+
+
 	#footer footer .col-1,
 	#footer footer .col-2,
 	#footer footer .col-3,
