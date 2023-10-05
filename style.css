@@ -578,7 +578,7 @@ p {
 		background: rgba(255, 255, 255, 0.2);
 	}
 	#services .container .badges{
-		gap: 1rem;
+		gap: .1rem;
 	}
 }
 
@@ -655,7 +655,7 @@ p {
 		flex-direction: column;
 	}
 	#about .right .button a {
-		width: 60%;
+		width: 70%;
 		text-align: center;
 	}
 	#about .left .card .img {
